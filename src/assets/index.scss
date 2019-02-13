@@ -1,0 +1,85 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    border: 50px;  
+
+
+   .protoHeader{
+      display: flex;
+   }
+
+   .jumbo{
+    background-image:url("banner.jpg"); 
+    height: 30em;
+    width: 65em;
+    color:white;
+    margin-bottom: 3em;
+
+        .prototype{
+            margin-top: 2.5em;
+            margin-left: 3em;
+            margin-bottom: 2em;
+        }
+
+        .workwithus{
+            margin-left: 28em;
+            margin-top: 3.5em;
+            font-size: 15px;
+        }
+
+        .hire{
+            margin-left: 2em;
+            margin-top: 3.5em;
+            font-size: 15px;
+        }
+
+        hr{
+            display: block;
+            text-align: center;
+            height: 10em;
+            width: 60em;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin-top: 0em;
+            padding: 0
+        }
+        p{
+            margin-top: 10em;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .join{
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+    }
+
+    .protoJobType{
+        display: flex;
+        color: black;
+        text-align: center;
+        justify-content: space-around;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 7em;
+    }
+    .loadMore{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        background-color: transparent;
+        border-radius: 4px;
+        width: 180px;
+        height: 50px;
+        margin-left: 50em;
+        border: 1px solid black;
+        margin-bottom: 20em;
+    }
+}
+
+
+
